@@ -1,12 +1,14 @@
 print("Welcome to my calculator")
 def calculator():
-    menu = input("1. Add 2. Substraction 3. multiplication")
+    menu = input("1. Add 2. Substraction 3. multiplication 4. div ")
     if(menu == "1"):
         add()
     elif(menu == "2"):
         sub()
     elif(menu == "3"):
         mul()
+    elif(menu == "4"):
+        div()
     else:
         print("Incorrect entry")
     print("Do you want to do any other thing? ")
@@ -30,5 +32,10 @@ def mul():
     first = input("Enter first number: ")
     second = input("Enter second number: ")
     result = first * second
+    print(result)
+def div():
+    first = input("Enter first number: ")
+    second = input("Enter second number: ")
+    result = first / second
     print(result)
 calculator()
