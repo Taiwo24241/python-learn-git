@@ -17,7 +17,9 @@ def calculator():
         calculator()
     else:
         print("BYE!")
-
+        print("See you again")
+        print("Hope to see you again")
+        
 def add():
     first = input("Enter first number: ")
     second = input("Enter second number: ")
