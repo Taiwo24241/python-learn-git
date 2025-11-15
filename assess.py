@@ -22,6 +22,16 @@
 #         print(actual_num)
 #     actual_num = actual_num + 1
 
+# start = int(input("Enter the starting point: "))
+# end = int(input("Enter the ending point: "))
+# skip = int(input("Enter the number to skip: "))
+# while start <= end:
+#     if start == skip:
+#         start = start + 1
+#         continue
+#     print(start)
+#     start = start + 1
+
 start_point = int(input("Enter a starting point:  "))
 end_point = int(input("Enter the end point: "))
 skip_num = int(input("Enter the number you want to skip: "))
